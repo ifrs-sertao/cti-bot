@@ -333,3 +333,31 @@ nlu:
     - Bot, me mostra o [menu](menu)
     - Quais são as [opções](menu) de diálogo?
     - Me mostre as [opcoes](menu) de conversa
+- intent: acessomoodle
+  examples: |
+    - Preciso de ajuda com o Moodle
+    - Meu Moodle não entra
+    - Não sei entrar no Moodle
+    - Não consigo acesso ao Moodle
+    - Não lembro a senha do Moodle
+    - Como acesso ao Moodle
+    - Como faço para acessar o Moodle
+    - Qual o link de acesso ao Moodle
+- intent: acessoemail_problema
+  examples: |
+    - Meu e-mail institucional não entra
+    - Meu e-mail institucional dá erro
+    - Meu e-mail institucional diz que não existe
+    - O e-mail institucional diz que usuário ou senha estão errados
+- intent: acessoemail_manual
+  examples: |
+    - Como acesso o e-mail institucional
+    - Como faço para acessar o e-mail institucional
+    - Não sei como acessa o e-mail institucional
+    - Não consigo acessar o e-mail institucional
+- intent: acessoemail_confirmar
+  examples: |
+    - sim
+    - confirmo
+    - tenho
+    - acessei

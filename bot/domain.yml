@@ -55,6 +55,32 @@ slots:
     type: text
     influence_conversation: false
 responses:
+  utter_acessoemail_tem_acesso:
+  - text: |
+      Então, você tem acesso ao seu e-mail institucional?
+  utter_acessoemail_confirma:
+  - text: |
+      Ótimo! Isso vai tornar tudo mais fácil pra você. Vamos lá!
+      1º - (CLIQUE AQUI)[https://senha-moodle.sertao.ifrs.edu.br/] ou em Esqueceu a Senha do próprio Moodle
+      2º - Insira sua matrícula, siga os passos e confira o link no e-mail institucional
+      IMPORTE! Aguarde alguns minutos para que a mudança tenha efeito no Moodle
+  utter_acessomoodle_manual:
+  - text: |
+      Sobre o acesso Moodle, você precisa ter em mãos teu número de matrícula e
+      além disso ter acesso ao e-mail institucional, pois é a partir dele que poderá criar
+      sua senha de acesso ao Moodle.
+
+  - text: |
+      Para ter acesso ao Moodle você precisa ter em mãos o número de matrícula. Fora isso,
+      você precisa ativar seu e-mail institucional, porque a partir dele você cria sua senha 
+      de acesso ao Moodle.
+
+  utter_acessomoodle_problema:
+  - text: |
+      Sobre o acesso Moodle, você precisa ter em mãos teu número de matrícula e
+      além disso ter acesso ao e-mail institucional, pois é a partir dele que poderá criar
+      sua senha de acesso ao Moodle.
+      Então, você tem acesso ao seu e-mail institucional?  
   utter_fallback:
   - text: |
       Desculpe, ainda não sei falar sobre isso ou talvez não consegui entender direito
