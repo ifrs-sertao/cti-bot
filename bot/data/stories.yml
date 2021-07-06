@@ -95,7 +95,4 @@ stories:
 - story: acessoemail_manual
   steps:
   - intent: acessoemail_manual
-  - action: utter_acessomoodle_manual
-  - action: utter_acessoemail_tem_acesso
-  - intent: acessoemail_confirmar
-  - action: utter_acessoemail_confirma
+  - action: utter_acessoemail_manual
